@@ -1,84 +1,55 @@
 *{
-    margin:0px;
-    padding:0px;
-    background-color: #2e2222
+	margin: 0px;
+	padding: 0px;
 }
 h1{
-    font: bold 20px Tahoma;
-    background: #5e0303;   ;
+	font: bold 20px Tahoma;
 }
 h2{
-    font: bold 20px Tahoma;
-    background: #5e0303;   
+	font: bold 14px Tahoma;
 }
 header, section, footer, aside, nav, article, hgroup{
-    display:block;
+	display:block;
 }
 body{
-    width:100%;
-    display:-webkit-box;
-    -webkit-box-pack: center;
+	text-align:center;
 }
-#idk{
-    max-width: 1000px;
-    margin: 20px 0px;
-    display:-webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-box-flex: 1;
+#big_wrapper{
+	border: 1px solid black;
+	width:1000px;
+	margin: 20px auto;
+	text-align: left;
 }
 #top_header{
-    background: rgb(161, 0, 0);
-    border: 3px solid black;
-    padding:20px;
+	background:yellow;
+	border: 1px solid blue;
+	padding: 20 px;
 }
 #top_menu{
-    border: red;
-    background: rgb(119, 5, 5);
-    color: white;   
+	background:blue;
+	color:white;
 }
 #top_menu li{
-    display: inline-block;
-    list-style: none;
-    padding: 5px;
-    font: bold 14px Tahoma;
-}
-#new_div{
-    display:-webkit-box;
-    -webkit-box-orient:horizontal;
+	display:inline-block;
+	list-style:none;
+	padding: 5px;
+	font: bold 14px Tahoma;
 }
 #main_section{
-    border: 1px solid rgb(179, 0, 0);
-    -webkit-box-flex: 1;
-    margin: 20px;
-    padding: 20px;
-    color: white
+	float: left;
+	width:660px;
+	margin:30px;  /*720px, 280 left */
 }
 #side_news{
-    border: 1px solid red;
-    width:220px;
-    margin: 20px 0px;
-    padding: 30px;
-    background: rgb(59, 59, 59);
-    color: #f5f5f5
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66CCCC;
 }
-#footer{
-    text-align: center;
-    padding: 20px;
-    border-top: 2px solid rgb(60, 61, 60);
-}
-article {
-    background: #5e0303;        
-    border: 1px solid red;
-    padding: 20px;
-    margin-bottom: 15px;
-}
-article footer{
-    text-align:right;
-    color:slategray
-}   
-h4{
-    font: bold 20px Tahoma;
-}
-header{
-    background: #5e0303;   
+#the_footer{
+	clear:both;
+	text-align:center;
+	padding:20px;
+	border-top: 2px solid green;
 }
