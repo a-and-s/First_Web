@@ -27,7 +27,7 @@ body{
     -webkit-box-flex: 1;
 }
 #top_header{
-    background: rgb(255, 0, 0);
+    background: rgb(105, 0, 0);
     border: 3px solid black;
     padding:20px;
 }
@@ -77,29 +77,39 @@ article footer{
     color:whitesmoke
 }   
 h4{
-    font-family: 'Montserrat', sans-serif;  
-    background:rgb(59, 59, 59); 
+    font-family: 'Montserrat', sans-serif; 
+    background: rgb(59, 59, 59) 
 }
 header{
-    background: red;   
+    background: rgb(119, 5, 5);   
 }
 p{
    background: #5e0303;
 }
 h5{
     font: bold 20px Tahoma;
-    background:rgb(255, 0, 0); 
+    background: rgb(105, 0, 0); 
+    color: whitesmoke
 }
 h6{
-    color: white; 
-    font-family: 'Inconsolata', monospace;
-    font-size: 10px   
+    color: white;    
 }
 h7{
     font-family: 'Montserrat', sans-serif;  
     background: rgb(59, 59, 59);
     font-size:14px
 }
-#section_01{
-    font-size: 10px
+a{
+    border: red;
+    color: white; 
+    font: bold 14px Tahoma;  
+}
+h1902{
+    border: red;
+    color: white; 
+    font: bold 140px Tahoma;  
+    background: #5e0303;
+}
+li{
+    color: rgb(59, 59, 59)
 }
