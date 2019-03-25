@@ -1,0 +1,19 @@
+<!doctype html>
+ <html Lang="en">
+ <head>
+      <meta charse	t="utf-8">	 
+        <title>Abinash's web </title>
+        <link rel="stylesheet" href="main.css">
+ </head>
+ <body background="banner.png">
+	<div id="idk">
+	<header id="top_header">
+	    <h5>Welcome To The Website</h5>
+	</header> 
+	<nav id="top_menu"> 
+	   <ul> 
+		   <a href="C:\Users\abina\OneDrive\Documents\Creative Computing\HTML turail.html">Home</a>
+		   <a href="C:\Users\abina\OneDrive\Documents\Creative Computing\Aboutme.html">About Me(Working On)</a>
+		   <li>Podcast</li>	   
+	   </ul>
+	</nav>
